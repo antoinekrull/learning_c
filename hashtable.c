@@ -38,15 +38,6 @@ bool insert(person *person) {
 
 int main() {
     init_hash_table();
-    printf("Antoine has hash: %d\n", hash("Antoine"));
-    printf("Vivienne has hash: %d\n", hash("Vivienne"));
-    printf("Daniel has hash: %d\n", hash("Daniel"));
-    printf("Tarik has hash: %d\n", hash("Tarik"));
-    printf("Isabelle has hash: %d\n", hash("Isabelle"));
-    printf("Bernd has hash: %d\n", hash("Bernd"));
-    printf("Nina has hash: %d\n", hash("Nina"));
-    printf("Brigitte has hash: %d\n", hash("Brigitte"));
-
     person antoine = {.age = 45, .name="Antoine"};
     insert(&antoine);
     person vivienne = {.age = 45, .name="Vivienne"};
